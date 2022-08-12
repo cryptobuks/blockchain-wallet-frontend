@@ -11,6 +11,7 @@ nav {
   );
   backdrop-filter: blur(6px);
   color: white;
+  position: relative;
 }
 .account-details {
   display: flex;
@@ -76,12 +77,14 @@ nav {
   font-weight: 500;
   font-size: 13.8px;
   color: #fff;
+  z-index: 500;
+  border: none;
 }
 .copy-button img {
   height: 0.8rem;
   width: 0.8rem;
   position: absolute;
-  bottom: 100%;
+  bottom: 98%;
   left: 50%;
   transform: translateX(-50%);
   transform: all 0.2s;

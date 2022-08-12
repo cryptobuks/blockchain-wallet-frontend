@@ -1,0 +1,21 @@
+.button {
+  width: 133.4px;
+  height: 35.79px;
+
+  background: linear-gradient(98.91deg, #9b65f2 -18.6%, #7d02a9 100%);
+  backdrop-filter: blur(49.1097px);
+  border-radius: 18.7085px;
+  border: none;
+  color: #ffffff;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.button img {
+  height: 9.83px;
+}

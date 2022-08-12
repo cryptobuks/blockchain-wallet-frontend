@@ -19,6 +19,9 @@
   display: flex;
   align-items: center;
 }
+.sidebar-image-wrapper img {
+  cursor: pointer;
+}
 .side-bar-item-wrapper {
   padding: 1rem 1.5rem;
   height: 69px;
@@ -27,6 +30,7 @@
   gap: 1rem;
   border-top: 1px solid rgb(110, 108, 108);
   border-bottom: 1px solid rgb(110, 108, 108);
+  cursor: pointer;
 }
 
 .side-bar-item-wrapper p {
@@ -48,6 +52,7 @@
 .sidebar-item-active {
   background: linear-gradient(94.84deg, #0d0e15 0%, #0d0e15 100%);
 }
+
 @keyframes sidebarAnimation {
   from {
     left: -100%;

@@ -1,0 +1,46 @@
+.hero-wrapper {
+  display: flex;
+  justify-content: center;
+  height: 9.5rem;
+}
+.hero {
+  width: 95%;
+  background-image: url("/public/background.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 1.5rem 2rem 0rem 2rem;
+  position: relative;
+}
+.balance-info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+.zlogo {
+  height: 48px;
+  width: 48px;
+}
+.zil {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  color: #ffffff;
+}
+.usd {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17.25px;
+  color: #7b7b7b;
+}
+.buttons {
+  position: absolute;
+  bottom: -0.3rem;
+  display: flex;
+  width: 81%;
+  justify-content: space-between;
+}
