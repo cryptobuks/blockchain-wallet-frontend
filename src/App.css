@@ -3,24 +3,5 @@
   height: 600px;
   background: linear-gradient(158.66deg, #0d071e 0%, #270e36 100%);
   position: relative;
-}
-nav {
-  height: 78px;
-  padding: 0 1rem;
-  display: flex;
-  align-items: center;
-  background: linear-gradient(
-    94.84deg,
-    rgba(24, 26, 37, 0.75) 0%,
-    rgba(24, 26, 37, 0.85) 100%
-  );
-  backdrop-filter: blur(6px);
-}
-.ham {
-  width: 16px;
-  height: 12px;
-  cursor: pointer;
-}
-.ham:hover {
-  transform: scale(1.1);
+  overflow: hidden;
 }

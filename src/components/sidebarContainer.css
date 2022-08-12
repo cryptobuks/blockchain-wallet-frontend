@@ -10,7 +10,7 @@
   backdrop-filter: blur(50px);
   position: absolute;
   top: 0;
-  left: 0;
+  animation: sidebarAnimation 0.2s ease-out;
 }
 
 .sidebar-image-wrapper {
@@ -47,4 +47,12 @@
 }
 .sidebar-item-active {
   background: linear-gradient(94.84deg, #0d0e15 0%, #0d0e15 100%);
+}
+@keyframes sidebarAnimation {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0;
+  }
 }
