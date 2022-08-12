@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { useState } from "react";
+import "./App.css";
+import SidebarModal from "./components/SidebarModal";
 function App() {
+  const [showSidebar, setShowSidebar] = useState(false);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <nav>
+        <img
+          src={"/ham.png"}
+          alt=""
+          className="ham"
+          onClick={() => setShowSidebar(() => true)}
+        />
+      </nav>
+      {showSidebar && <SidebarModal setShowSidebar={setShowSidebar} />}
     </div>
   );
 }
