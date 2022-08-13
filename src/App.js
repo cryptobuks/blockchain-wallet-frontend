@@ -4,6 +4,7 @@ import SidebarModal from "./components/SidebarModal";
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import AssetsAndActivity from "./components/AssetsAndActivity";
+import Footer from "./components/Footer";
 function App() {
   const [showSidebar, setShowSidebar] = useState(false);
   return (
@@ -12,6 +13,7 @@ function App() {
       {showSidebar && <SidebarModal setShowSidebar={setShowSidebar} />}
       <Hero />
       <AssetsAndActivity />
+      <Footer />
     </div>
   );
 }

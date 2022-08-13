@@ -1,0 +1,59 @@
+.activity-list-item img {
+  height: 26px;
+  width: 26px;
+}
+.activity-list-item {
+  padding: 0rem 1.5rem 0rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  justify-content: space-between;
+  cursor: pointer;
+  height: 4rem;
+}
+.activity-list-item-container::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, #97939e 0%, #4f4659 100%);
+}
+.activity-list-item-container:last-child:after {
+  display: none;
+}
+.activity-list-item .left {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.activity-list-item .right {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+.activity-list-item .left img {
+  height: 2rem;
+  width: 2rem;
+}
+.contract-interaction {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+}
+.date {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  color: #7b7b7b;
+}
+.rightarrow {
+  display: block;
+  height: 10.5px !important;
+  width: 5.5px !important;
+  justify-self: end;
+}

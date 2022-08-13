@@ -24,7 +24,8 @@ const Nav = ({ setShowSidebar }) => {
         </p>
         {showCopiedButton && (
           <button className="copy-button">
-            <img src={"/polygon.png"} className="copy-image" /> Copied
+            <div src={"/polygon.png"} className="copy-image"></div>
+            Copied
           </button>
         )}
       </div>

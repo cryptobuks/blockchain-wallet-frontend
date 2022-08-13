@@ -7,10 +7,11 @@
     rgba(24, 26, 37, 0.85) 100%
   );
   box-shadow: 5px 0px 8px rgba(0, 0, 0, 0.25);
-  backdrop-filter: blur(50px);
+  backdrop-filter: blur(10px);
   position: absolute;
   top: 0;
   animation: sidebarAnimation 0.2s ease-out;
+  z-index: 1000;
 }
 
 .sidebar-image-wrapper {

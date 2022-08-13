@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import Assets from "./Assets";
+import Activity from "./Activity";
 import "./AssetsAndActivity.css";
 const AssetsAndActivity = () => {
   const [currentTab, setCurrentTab] = useState("assets");
@@ -20,6 +22,8 @@ const AssetsAndActivity = () => {
           </div>
         </div>
       </div>
+      {currentTab === "assets" && <Assets />}
+      {currentTab === "activity" && <Activity />}
     </div>
   );
 };

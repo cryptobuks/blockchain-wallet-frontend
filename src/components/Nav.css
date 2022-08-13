@@ -12,6 +12,7 @@ nav {
   backdrop-filter: blur(6px);
   color: white;
   position: relative;
+  z-index: 5;
 }
 .account-details {
   display: flex;
@@ -30,13 +31,15 @@ nav {
   font-weight: 500;
   font-size: 13.8px;
 }
+.account-number img {
+  cursor: pointer;
+}
 .account-name {
   font-family: "Kanit";
   font-style: normal;
   font-weight: 500;
   font-size: 17.25px;
 }
-
 .ham {
   width: 16px;
   height: 12px;
@@ -66,21 +69,19 @@ nav {
 .copy-button {
   background: linear-gradient(98.91deg, #9b65f2 -18.6%, #7d02a9 100%);
   backdrop-filter: blur(49.1097px);
-
   border-radius: 18.7085px;
   width: 121px;
   height: 30px;
   position: absolute;
-  top: 4.5rem;
+  top: 100%;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 13.8px;
   color: #fff;
-  z-index: 500;
   border: none;
 }
-.copy-button img {
+.copy-button div {
   height: 0.8rem;
   width: 0.8rem;
   position: absolute;

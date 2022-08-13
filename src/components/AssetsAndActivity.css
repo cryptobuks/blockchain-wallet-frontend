@@ -1,8 +1,12 @@
+.main-container {
+  min-height: 18.5rem;
+}
 .tabs {
   display: flex;
-  gap: 6rem;
   justify-content: center;
   margin-top: 1.5rem;
+  height: 2rem;
+  position: relative;
 }
 
 .tab {
@@ -12,6 +16,11 @@
   font-size: 14px;
   color: #797981;
   cursor: pointer;
+  text-align: center;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .main-container > div::after {
   content: "";
@@ -19,8 +28,18 @@
   width: 100%;
   height: 1px;
   background: linear-gradient(90deg, #97939e 0%, #4f4659 100%);
-  margin-top: 10px;
 }
 .active-tab {
   color: #fff;
+  height: 100%;
+  position: relative;
+}
+.active-tab:after {
+  content: "";
+  display: block;
+  height: 2px;
+  background: linear-gradient(90deg, #aa74e9 0%, #6f14b4 100%);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
